@@ -1,5 +1,3 @@
-
-
 const FuzzyScript = () => {
   const q = new Date();
   const hours = {
@@ -84,16 +82,9 @@ const FuzzyScript = () => {
     if (q.getMinutes() < 34) return `It is ${minutes[q.getMinutes()]} ${hours[q.getHours() % 12]}`;
     return `It is ${minutes[q.getMinutes()]} ${hours[(q.getHours() + 1) % 12]}`;
   }
-  // console.log(time());
   return time();
 }
 
 FuzzyScript();
-// const interval = setInterval(fuzzyClock, 1000);
-
-// $(document).ready(function() {
-
-//     // all custom jQuery will go here
-// });
 
 export default FuzzyScript;

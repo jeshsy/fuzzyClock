@@ -5,7 +5,7 @@ class FuzzyClock extends Component {
   constructor(props) {
     super();
     this.state = {
-      fuzzyTime: "It's High Noon",
+      fuzzyTime: "What time is it?",
     }
     this.handleFuzzyTime = this.handleFuzzyTime.bind(this);
   }
