@@ -3,8 +3,13 @@
   text-align: center;
 }
 
+body {
+  background-color: black;
+}
+
 .FuzzyClock {
   margin-top: 45vh;
   font-size: 500%;
   font-family: 'Westminster';
+  color: white;
 }
